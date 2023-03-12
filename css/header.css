@@ -1,0 +1,52 @@
+.header {
+    background-image: url(../img/background-image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 847px;
+    width: 417px;
+    }
+    
+    
+    .figma-land_logo {
+        width: 186px;
+        height: 58px;
+       
+    }
+    
+    .figma__logo-container {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+    
+    .header__top-nav {
+        display: flex;
+        
+        flex-direction: column;
+       color: #ffff; 
+       float: right;
+    }
+    
+    .top-nav__item {
+        color: #ffff; ;
+        text-decoration: none;
+    }
+    
+    
+    .header__title {
+        font-size: 3rem;
+        font-weight: 370;
+        text-align: center;
+        color: #ffff; 
+        padding: 80px 42px 0 42px;
+        letter-spacing: 0.2px;
+        /* line-height: 55px; */
+    }
+    
+    .header__sub-title {
+        font-size: 1.75rem;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #ffff; 
+       padding: 27px 76.5px 0 75.5px;
+    }

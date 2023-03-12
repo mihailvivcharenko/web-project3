@@ -1,0 +1,32 @@
+@import url(fonts/GraphikBold.otf);
+@import url(fonts/GraphikRegular.otf);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--head-color: #252B42;
+--paragraph-color: #374754;
+--button-color: #2091F9;
+--accent-color: #252B42;
+font-family: "Graphik", sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* @font-face {
+    font-family: "Graphik";
+    src: url(fonts/GraphikBold.otf) format("truetype");
+    src: url(fonts/GraphikRegular.otf) format("truetype");
+  } */

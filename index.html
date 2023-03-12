@@ -5,50 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" type="image/png" href="img/vector7.png">
     <title>Personal</title>
 </head>
 
 <body>
 
-<!-- TITLE AND NAV SECTION -->
-<header class="header">
-    <img class="figma-land_logo" src="img/figma-land-logo.png" alt="Figma-land Logo">
-    <nav class="header__top-nav">
-        <a href="#" class="top-nav__item">Home</a>
-        <a href="#" class="top-nav__item">Product</a>
-        <a href="#" class="top-nav__item">Pricing</a>
-        <a href="#" class="top-nav__item">About</a>
-        <a href="#" class="top-nav__item">Contact</a>
-    </nav>
-    <h1 class="header__title">The best
-        products start
-        with Figma</h1>
 
-    <p class="header__sub-title">Most calendars are
-        designed for teams. </p>
+    <!-- TITLE AND NAV SECTION -->
+    <header class="header">
+        <div class="figma__logo-container"><img class="figma-land_logo" src="img/figma-land-logo.png"
+                alt="Figma-land Logo">
+            </div>
 
-    <a class="try-for-free__button" href="#">Try for free</a>
-</header>
+        <nav class="header__top-nav">
+            <a href="#" class="top-nav__item">Home</a>
+            <a href="#" class="top-nav__item">Product</a>
+            <a href="#" class="top-nav__item">Pricing</a>
+            <a href="#" class="top-nav__item">About</a>
+            <a href="#" class="top-nav__item">Contact</a>
+        </nav>
+        <h1 class="header__title">The best
+            products start
+            with Figma</h1>
+
+        <p class="header__sub-title">Most calendars are
+            designed for teams. </p>
+        <div class="button-container">
+            <a class="try-for-free__button button" href="#">Try for free</a>
+        </div>
+
+    </header>
 
 
     <main>
 
-<!-- FEATURES SECTION -->
-        <section class="features">
+
+      <!-- FEATURES SECTION -->
+        <section class="features container">
             <h2 class="features__title">Features</h2>
             <p class="features__sub-title">Most calendars are
                 designed for teams. </p>
-            <video src="#"></video>
+
+            <div class="features__video">
+                <video class="features-video" src="video/Whats Figma 720p.mp4" width="385px" height="215px"></video>
+            </div>
 
             <div class="features__boxes">
 
                 <div class="features__box-one">
-                    <img src="img/vector_circle-square.png" alt="circle-square">
-                    <h3 class="feature__box-one-title">OpenType features
+                    <div class="circle-square">
+                        <img class="features-one__image" src="img/vector_circle-square.png" alt="circle-square">
+                    </div>
+
+                    <h3 class="feature__box-title">OpenType features
                         Variable fonts</h3>
-                    <p class="feature__box-one-text">Slate helps you see how
+                    <p class="feature__box-text">Slate helps you see how
                         many more days you need
                         to work to reach your
                         financial goal.</p>
@@ -57,9 +70,9 @@
 
 
                 <div class="features__box-two">
-                    <img src="img/vector_pen.png" alt="pen">
-                    <h3 class="feature__box-two-title">Design with real data</h3>
-                    <p class="feature__box-two-text">Slate helps you see how
+                    <img class="features-two__image" src="img/vector_pen.png" alt="pen">
+                    <h3 class="feature__box-title">Design with real data</h3>
+                    <p class="feature__box-text">Slate helps you see how
                         many more days you need
                         to work to reach your
                         financial goal.</p>
@@ -68,10 +81,10 @@
 
 
                 <div class="features__box-three">
-                    <img src="img/vector_tassel.png" alt="tassel">
-                    <h3 class="feature__box-three-title">Fastest way to
+                    <img class="features-three__image" src="img/vector_tassel.png" alt="tassel">
+                    <h3 class="feature__box-title">Fastest way to
                         take action</h3>
-                    <p class="feature__box-three-text">Slate helps you see how
+                    <p class="feature__box-text">Slate helps you see how
                         many more days you need
                         to work to reach your
                         financial goal.</p>

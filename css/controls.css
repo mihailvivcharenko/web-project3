@@ -10,7 +10,8 @@ text-align: center;
 text-decoration: none;
 color: white;
 padding: 16px 62px;
-margin: 70px 90px 0 90px;
+/* margin: 70px 90px 0 90px; */
+margin: auto;
 white-space: nowrap;
 cursor: pointer;
 

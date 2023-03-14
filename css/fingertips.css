@@ -1,5 +1,5 @@
 .at-your-fingertips {
-    width: 417px;
+    min-width: 320px;
     display: flex;
     flex-direction: column;
     margin-left: 0;
@@ -58,8 +58,30 @@
     height: 261px; */
 }
 
+.application-form__fingertips {
+    margin-top: 95px;
+}
 
+.application__title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    color: var(--accent-color);
+    
+}
 
-/* .application__title {
+.application__sub-title {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: var(--paragraph-color);
+}
 
-} */
+.application__input-button {
+    margin-top: 34px;
+}
+
+.subsribe__button {
+    padding-top: 20px;
+}
+

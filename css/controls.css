@@ -21,3 +21,39 @@ font-size: 1.25rem;
 line-height: 20px;
 letter-spacing: 0.3px;
 }
+
+.email {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 35px;
+    gap: 47px;
+
+    width: 353px;
+    height: 54px;
+
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    border-radius: 39px;
+
+}
+
+.send-form-button {
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 17px 35px;
+gap: 10px;
+border-radius: 35px;
+
+width: 353px;
+height: 54px;
+background-color: var(--button-color);
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+

@@ -145,8 +145,17 @@
                 <div class="application-form__fingertips">
                     <p class="application__title"><b>Subscribe to our Newsletter</b></p>
                     <p class="application__sub-title">Available exclusivery on Figmaland</p>
-                    <input type="text" class="email" name="email" placeholder="Your Email" required>
-                    <button type="button" class="send-form">Subscribe</button>
+                    <div class="application__input-button">
+                        <input type="text" class="email" name="email" placeholder="Your Email" required>
+
+                        <div class="subsribe__button">
+                            <button type="button" class="subsribe-button send-form-button">Subscribe</button>
+                        </div>
+
+                    </div>
+
+
+
 
                 </div>
 
@@ -156,28 +165,40 @@
 
         <!-- PARTNERS SECTION -->
         <section class="partners">
-            <h2 class="partners__title">Partners</h2>
-            <p class="partners__sub-title">Most calendars are designed for teams.
-                Slate is designed for freelancers</p>
+            <div class="partners__content">
+                <h2 class="partners__title">Partners</h2>
+                <p class="partners__sub-title">Most calendars are designed for teams.
+                    Slate is designed for freelancers</p>
+            </div>
 
-            <div class="partners__card-google">
-                <p class="partner__card-google-title">Client Name</p>
-                <img width="240" src="img/google-logo.png" alt="Google logo" class="partners__card-image-google">
+            <div class="partners__cards">
+                <div class="partners__card-google">
+                    <p class="partner__card-google-title">Client Name</p>
+                    <img src="img/google-logo.png" alt="Google logo" class="partners__card-image-google">
+                </div>
+
+
+                <div class="partners__card-amazon">
+                    <p class="partners__card-amazon">Client Name</p>
+                    <img src="img/logo-amazon.png" alt="Amazon logo" class="partners__card-image-amazon">
+                </div>
+
+
+                <div class="partners__card-microsoft">
+                    <p class="partners__card-microsoft">Client Name</p>
+                    <img src="img/microsoft-logo.png" alt="Microsoft logo" class="partners__card-image-microsoft">
+                </div>
+            </div>
+
+            <div class="partners__button">
+                <a class="try-for-free__button button" href="#">Try for free</a>
             </div>
 
 
-            <div class="partners__card-amazon">
-                <p class="partners__card-amazon">Client Name</p>
-                <img width="240" src="img/logo-amazon.png" alt="Amazon logo" class="partners__card-image-amazon">
-            </div>
 
 
-            <div class="partners__card-microsoft">
-                <p class="partners__card-microsoft">Client Name</p>
-                <img width="240" src="img/microsoft-logo.png" alt="Microsoft logo"
-                    class="partners__card-image-microsoft">
-            </div>
-            <a class="try-for-free__button" href="#">Try for free</a>
+
+
         </section>
 
 

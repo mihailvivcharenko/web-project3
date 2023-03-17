@@ -96,7 +96,15 @@ color: var(--accent-color);
     font-weight: 400;
 font-size: 18px;
 line-height: 25px;
-
 color: var(--paragraph-color);
-
 }
+
+
+@media (min-width: 800px) {
+    .features__boxes {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+

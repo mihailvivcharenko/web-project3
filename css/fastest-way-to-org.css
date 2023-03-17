@@ -1,4 +1,4 @@
-.fastest-way-to-org {
+.fast-way__content {
     min-width: 320px;
     /* display: flex;
     flex-direction: column;
@@ -44,4 +44,26 @@
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+@media (min-width: 800px) {
+    .fast-way__content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+
+    .fast-way__sub-title {
+        padding-bottom: 40px;
+    }
+
+    .fast-way__image {
+        width: 624.46px;
+        height: 349.17px; 
+    }
+
 }

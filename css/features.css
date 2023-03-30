@@ -1,7 +1,7 @@
 .features {
     min-height: 847px;
     min-width: 320px;;
-    margin-left: 0;
+    /* margin-left: 0; */
     
 }
 
@@ -9,8 +9,6 @@
 .features__text {
     text-align: center;
     margin: 100px 67px 0 67px;
-    
-
 }
 
 .features__title {

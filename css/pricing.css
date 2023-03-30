@@ -1,0 +1,227 @@
+.pricing {
+    background-color: var(--accent-color);
+}
+
+.pricing__content {
+
+    width: 285px;
+    margin: 0 auto;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.pricing__title {
+    font-weight: 400;
+font-size: 3rem;
+line-height: 55px;
+
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+.pricing__sub-title {
+    font-weight: 400;
+font-size: 1.75rem;
+line-height: 40px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+padding-top: 27px;
+}
+
+
+.pricing__cards-types {
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 108px;
+}
+
+.pricing__free-card {
+    background: #FFFFFF;
+border: 1px solid #DEDEDE;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+text-align: center;
+width: 335px;
+height: 667px;
+margin-bottom: 50px;
+}
+
+.pricing__standart-card {
+    background: #2091F9;
+border: 1px solid #DEDEDE;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+text-align: center;
+width: 335px;
+height: 667px;
+margin-bottom: 50px;
+}
+
+.pricing__business-card {
+    background: #FFFFFF;
+border: 1px solid #DEDEDE;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+text-align: center;
+width: 335px;
+height: 667px;
+margin-bottom: 118px;
+}
+
+.cards__heading {
+    width: 144px;
+
+    margin: 40px auto;
+}
+
+.pricing__card-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+color: var(--accent-color);
+    padding-bottom: 5px;
+}
+
+.pricing__card-sub-title {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+letter-spacing: 0.1px;
+color: var(--paragraph-color);
+}
+
+.pricing__standart-card .pricing__card-title {
+    color: #FFFFFF;
+}
+
+.pricing__standart-card .pricing__card-sub-title {
+    color: #FFFFFF;
+}
+
+
+
+/* VALUATION INFO START */
+
+.pricing__valuation {
+
+    width: 300px;
+height: 100px;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+
+
+.valuation__currency-duration {
+padding-left: 10px;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+
+.valuation__number {
+    font-weight: 700;
+font-size: 4.625rem;
+line-height: 84px;
+letter-spacing: 0.2px;
+color: var(--accent-color);
+}
+
+.currency {
+    font-weight: 700;
+font-size: 1.25rem;
+line-height: 28px;
+letter-spacing: 0.1px;
+color: var(--accent-color);
+}
+
+.duration {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    color: var(--paragraph-color);
+}
+
+/* VALUATION INFO END */
+
+
+.pricing__standart-card {
+    color: #FFFFFF;
+}
+
+.pricing__standart-card .valuation__number{
+    color: #FFFFFF;
+}
+
+.pricing__standart-card .duration {
+    color: #FFFFFF;
+}
+
+.pricing__standart-card .currency {
+    color: #FFFFFF;
+}
+
+
+
+.pricing__listing {
+    display: flex;
+flex-direction: column;
+align-items: center;
+list-style-type: none;
+margin-bottom: 35px;
+}
+
+.pricing__listing li {
+    font-weight: 400;
+font-size: 0.938rem;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: var(--accent-color);
+padding: 10px 0 10px 0;
+}
+
+.pricing__standart-card li {
+    color: #FFFFFF;
+}
+
+.pricing__standart-card .order-now__button {
+    background-color: #FFFFFF;
+    color: #2091F9;
+}
+
+
+@media (min-width:800px) {
+    .pricing__cards-types {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pricing__business-card {
+        margin-bottom: 50px;
+    }
+
+    .pricing__standart-card {
+        height: 755px;
+        margin-left: 60px;
+        margin-right: 50px;
+        padding-top: 45px;
+    }
+
+    .pricing__content {
+        width: 552px;
+        margin: 0 auto;
+        padding-top: 120px;
+        text-align: center;
+    }
+
+
+}
